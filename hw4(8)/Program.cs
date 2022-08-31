@@ -4,18 +4,14 @@
 // 5 -> 2, 4
 // 8 -> 2, 4, 6, 8
 
-Console.WriteLine("Введите положительное число");
+Console.WriteLine("Введите число , больше 1");
 int Number = Convert.ToInt32(Console.ReadLine());
 
-if (Number < 1)
+if (Number < 2)// по условию на выходе от 1 до N , не стал добавлять вывод на 1 , решил что правильнее будет исключить
 {
-    Console.WriteLine("Число не положительное");
+    Console.WriteLine("Число меньше или равно 1");
 }
-int NumberA = 0;// NumberA - переменная , которая будет меняться от 0 до "N" 
-while (NumberA < Number) ;
-int ost = NumberA % 2; // ost - остаток после деления на 2 , для определения положительного числа
-if (ost == 0)
+for (int i = 2; i <= Number; i += 2)
 {
-    Console.WriteLine(NumberA);
-    NumberA = NumberA + 1;
+    Console.WriteLine(i);
 }
