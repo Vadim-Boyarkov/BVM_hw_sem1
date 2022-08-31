@@ -11,14 +11,11 @@ if (Number < 1)
 {
     Console.WriteLine("Число не положительное");
 }
-else
-{
-int NumberA = 1;
-while (NumberA <= Number) ;
-int ost = NumberA % 2;
+int NumberA = 0;// NumberA - переменная , которая будет меняться от 0 до "N" 
+while (NumberA < Number) ;
+int ost = NumberA % 2; // ost - остаток после деления на 2 , для определения положительного числа
 if (ost == 0)
 {
     Console.WriteLine(NumberA);
     NumberA = NumberA + 1;
-}
 }
