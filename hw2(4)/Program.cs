@@ -16,7 +16,7 @@ int NumberC = Convert.ToInt32(Console.ReadLine());
 
 int Max = 0;
 
-if(NumberA > NumberB)
+if (NumberA > NumberB)
 {
     Max = NumberA;
 }
@@ -24,7 +24,7 @@ else
 {
     Max = NumberB;
 }
-if(Max < NumberC)
+if (Max < NumberC)
 {
     Max = NumberC;
 }

@@ -9,19 +9,19 @@ int NumberA = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите второе число");
 int NumberB = Convert.ToInt32(Console.ReadLine());
 
-if(NumberA == NumberB)
+if (NumberA == NumberB)
 {
     Console.WriteLine("Числа равны");
 }
 else
-    if(NumberA > NumberB)
-    {
-         Console.WriteLine("Max = ");
-         Console.WriteLine(NumberA);
-     }
+    if (NumberA > NumberB)
+{
+    Console.WriteLine("Max = ");
+    Console.WriteLine(NumberA);
+}
 
-    else
-    {
-         Console.WriteLine("Max = ");
-         Console.WriteLine(NumberB);
-    }
+else
+{
+    Console.WriteLine("Max = ");
+    Console.WriteLine(NumberB);
+}
