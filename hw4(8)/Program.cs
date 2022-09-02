@@ -11,7 +11,10 @@ if (Number < 2)// по условию на выходе от 1 до N , не с�
 {
     Console.WriteLine("Число меньше или равно 1");
 }
-for (int i = 2; i <= Number; i += 2)
+ Console.Write("Четные числа от 1 , до ");
+ Console.WriteLine(Number);
+ 
+for (int i = 2; i <= Number; i += 2)// переменная i  - для запуска цикла от 2 до Number
 {
     Console.WriteLine(i);
 }
